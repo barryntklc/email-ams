@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 * {
-    border: 1px solid black;
+    //border: 1px solid black;
 }
 
 body {
@@ -24,160 +24,71 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     min-height: 100%;
     background: white;
 }
 
+.container-inner {
+
+}
+
 h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+
+    margin: 0;
+    //margin: -5px;
 }
 
 header {
+    background-color: #085122;
+    color: white;
 
+    padding: 10px;
 }
 
 main {
+    padding: 10px;
+    border-right: 10px solid #085122;
+    border-left: 10px solid #085122;
+    border-bottom: 10px solid #085122;
 
+    height: auto;
+    //min-height: 100px;
 }
 
 footer {
 
 }
 
-/*
-header {
-    background: #d2edf4;
-    background-image: linear-gradient(to bottom, #a2ffa6, #4f8051 100%);
-    padding: 20px 15px 15px 15px;
-    position: relative;
-}
-
-#login-buttons {
-    display: block;
-}
-
-h1 {
-    font-size: 1.5em;
-    margin: 0;
-    margin-bottom: 10px;
+.socbutton {
     display: inline-block;
-    margin-right: 1em;
-}
 
-form {
-    margin-top: 10px;
-    margin-bottom: -10px;
-    position: relative;
-//background-color: whitesmoke;
-}
-*/
-/*Copy-Pasted the rest from website tutorial*/
-/*
-.new-task input {
-    box-sizing: border-box;
-    padding: 10px 0;
-    background: transparent;
-    border: none;
-    width: 100%;
-    padding-right: 80px;
-    font-size: 1em;
-}
-
-.new-task input:focus{
-    outline: 0;
-}
-
-ul.items {
-    margin: 0;
-    padding: 0;
-    background: white;
-}
-
-.delete {
-    float: right;
     font-weight: bold;
-    background: none;
-    font-size: 1em;
-    border: none;
-    position: relative;
+
+    padding: 3px 7px;
 }
 
-.votes {
-    float: right;
-    font-weight: bold;
+.socbutton-facebook {
+    background: #3a5795;
+    color: white;
 }
 
-li.normal {
-    background-color: inherit;
+.socbutton-facebook:hover {
+    background: #5079ce;
 }
 
-li.item {
-    position: relative;
-    list-style: none;
-    padding: 5px;
-    border-bottom: #eee solid 1px;
+.socbutton-weebly {
+    background: #2990EA;
+    color: white;
 }
 
-li.item:hover {
-    background-color: grey;
+.socbutton-weebly:hover {
+    background: #52b8f3;
 }
 
-li.item .text {
-    margin-left: 10px;
+.disclaimer {
+    font-size: 10px;
 }
-
-li.checked {
-    color: #888;
-}
-
-li.checked .text {
-    text-decoration: line-through;
-}
-
-li.private {
-    background: #eee;
-    border-color: #ddd;
-}
-
-header .hide-completed {
-//float: right;
-}
-
-.toggle-private {
-    margin-left: 5px;
-}
-
-.selected {
-    background-color: #eeeeee;
-}
-
-#header {
-    display: inline-block;
-}
-
-#admin-logo {
-    display: inline-block;
-//position: relative;
-    right: 0;
-    align: right;
-    text-align: right;
-}
-
-@media (max-width: 600px) {
-    li.item {
-        padding: 12px 15px;
-    }
-
-    .search {
-        width: 150px;
-        clear: both;
-    }
-
-    .new-task input {
-        padding-bottom: 5px;
-    }
-}
-*/
